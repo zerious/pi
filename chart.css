@@ -1,0 +1,20 @@
+.c3-axis-y text, .c3-legend-item-Users text {
+  stroke: #5b5;
+  font-weight: 300;
+}
+.c3-axis-y2 text, .c3-legend-item-Searches text {
+  stroke: #08c;
+  font-weight: 300;
+}
+.c3-axis>text {
+  font-size: 16px;
+}
+.c3-area {
+  opacity: 0.1;
+}
+path.c3-line {
+  stroke-width: 2;
+}
+#chart {
+  margin-top: 8px;
+}

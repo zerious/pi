@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=device-width" name="viewport">
+<title>Point Inside Activity</title>
+<link rel="stylesheet" href="http://c3js.org/css/normalize-e465cb86.css"/>
+<link rel="stylesheet" href="http://c3js.org/css/c3-b03125fa.css"/>
+<link rel="stylesheet" href="http://c3js.org/css/style-99fb8989.css"/>
+<link rel="stylesheet" href="http://c3js.org/css/samples/timeseries-da39a3ee.css"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+<link rel="stylesheet" href="chart.css"/>
+<script src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script src="http://c3js.org/js/vendor/modernizr-2.6.1.min-68fdcc99.js"></script>
+<script src="http://c3js.org/js/foundation.min-1dfe8110.js" ></script>
+<script src="http://c3js.org/js/d3-3.5.6.min-77adef17.js" ></script>
+<script src="http://c3js.org/js/c3.min-4c5bef8f.js" ></script>
+<script src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+</head>
+<div class="container">
+  <h3 class="title">Point Inside Activity</h3>
+  <div style="float:right">
+    <div id="points" class="btn-group" role="group" aria-label="Points">
+      <button type="button" class="btn btn-default active" value="days">Days</button>
+      <!--<button type="button" class="btn btn-default" value="weeks">Weeks</button>-->
+      <button type="button" class="btn btn-default" value="months">Months</button>
+    </div>
+  </div>
+  <div class="daterangepicker_input" style="width:240px;position:relative;">
+    <input type="text" id="daterange" class="input-mini form-control" style="padding:0 6px 0 32px">
+    <i class="fa fa-calendar glyphicon glyphicon-calendar" style="position:absolute;left:10px;top:10px;"></i>
+  </div>
+  <div id="chart"></div>
+</div>
+<script src="c3.js" ></script>
+<script src="usage.jsonp" ></script>
+<script src="range.js"></script>
+</body>
+</html>
